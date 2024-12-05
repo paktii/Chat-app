@@ -1,0 +1,19 @@
+.scrollbar::-webkit-scrollbar{
+  width: 10px;
+}
+.scrollbar::-webkit-scrollbar-track{
+  @apply bg-slate-100 
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  @apply bg-slate-200 rounded-full
+}
+
+/*
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f5f9; 
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0; 
+  border-radius: 9999px; 
+}*/
