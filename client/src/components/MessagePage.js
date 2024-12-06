@@ -37,7 +37,7 @@ const MessagePage = () => {
 
   useEffect(()=>{
       if(currentMessage.current){
-          currentMessage.current.scrollIntoView({behavior : 'smooth', block : 'end'})
+        currentMessage.current.scrollIntoView({behavior : 'smooth', block : 'end'})
       }
   },[allMessage])
 
